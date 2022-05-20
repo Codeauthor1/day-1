@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: #43389f;
+}
+.frame{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    width: 400px;
+    height: 400px;
+    margin-top: -200px;
+    margin-left: -200px;
+    border-radius: 2px;
+    box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, .1);
+    overflow: hidden;
+    background: #fff;
+    font-family: 'Courier New', Courier, sans-serif;
+    background: linear-gradient(40deg, #43389f 0%, #4ec6ca 100%);
+    background: -webkit-linear-gradient(40deg, #43389f 0%, #4ec6ca 100%);
+    background: -moz-linear-gradient(40deg, #43389f 0%, #4ec6ca)100%;
+    background: -o-gradient(40deg, #43389f 0%, #4ec6ca 100%);
+    box-shadow: 1px -2px 6px #4ec6ca,
+                -1px 2px 6px #43389f;
+}
+
+.card{
+    height: 100%;
+    margin: auto;
+    padding-left: 60px;
+}
+
+.text-wrapper{
+    margin: auto;
+    display: flex;
+    position: relative;
+    align-items: center;
+    max-width: 250px;
+    height: 70%; 
+}
+.one{
+    position: absolute;
+    background: #fff;
+    width: 24px;
+    height: 100px;
+    border-radius: 3px;
+    z-index: 2;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, .2);
+}
+
+.one-cross{
+    position: absolute;
+    background: #fff;
+    width: 24px;
+    height: 50px;
+    top: 5.3rem;
+    left: -1rem;
+    border-radius: 5px;
+    border-top-left-radius: 18px;
+    border-top-right-radius: 4px;
+    transform: rotate(50deg);
+}
+
+.zero-1{
+    position: absolute;
+    left: 1.3rem;
+    height: 100px;
+    width: 100px;
+    border: 21px solid #fff;
+    border-radius: 50%;
+    z-index: 1;
+    box-shadow: 0px 0px 13px 0px rgba(0, 0, 0, .2);
+}
+.zero-2{
+    position: absolute;
+    left: 7rem;
+    height: 100px;
+    width: 100px;
+    border: 21px solid #fff;
+    border-radius: 50%;
+}
+
+.text{
+    position: absolute;
+    top: 12rem;
+    color: #fff;
+}
+
+.day{
+    font-size: 5rem;
+    letter-spacing: .3rem;
+    margin-top: -1rem;
+    margin-bottom: -1.4rem;
+}
+
+.challenge{
+    letter-spacing: .07rem;
+    font-size: 1.5rem;
+    font-weight: 700;
+}
