@@ -34,8 +34,8 @@ Add a screenshot of your solution.
 
 ### Links
 
-- Github: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Github: [Add solution URL here](https://www.github.com/codeauthor1/day-1)
+- Live Site URL: [Add live site URL here](https://www.github.com/codeauthor1/day-1)
 
 ## My process
 
